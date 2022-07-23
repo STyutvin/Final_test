@@ -8,3 +8,11 @@ void FillArray(string[] rndArray) //задание метода для запо�
         rndArray[index] = existingArray [new Random().Next(0, existingArray.Length)];
     }
 }
+void PrintArray(string[] prntArray) //задание метода для вывода элементов любого массива на консоль
+{
+    for (int position = 0; position < prntArray.Length; position++)
+    {
+        Console.Write(prntArray[position] + " ");
+    }
+    Console.WriteLine();
+}
