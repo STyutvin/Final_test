@@ -16,3 +16,11 @@ void PrintArray(string[] prntArray) //задание метода для выв�
     }
     Console.WriteLine();
 }
+string[] newArray= new string[3];
+
+FillArray(newArray);
+Console.WriteLine("Существующий строковый массив:");
+PrintArray(existingArray);
+Console.WriteLine();
+Console.WriteLine("Новый строковый массив:");
+PrintArray(newArray);
