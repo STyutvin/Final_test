@@ -20,7 +20,7 @@
             }
             Console.WriteLine();
         }
-        string[] newArray = new string[3];
+        string[] newArray = new string[new Random().Next(0, 4)];
 
         FillArray(newArray);
         Console.WriteLine("Существующий строковый массив:");
